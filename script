@@ -311,6 +311,7 @@ player.CharacterAdded:Connect(function()
     end
 end)
 
+
 -- Give the tool at the start if the character is already loaded
 if player.Character then
     giveTool()
